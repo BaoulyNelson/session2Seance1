@@ -1,0 +1,17 @@
+void main() {
+  // Nombre statique à tester
+  int nombre = 80; // Vous pouvez changer cette valeur pour tester différents cas
+
+  // Test si le nombre est plus grand que 70
+  if (nombre > 70) {
+    print('$nombre est plus grand que 70');
+  }
+  // Test si le nombre est plus petit que 70
+  else if (nombre < 70) {
+    print('$nombre est plus petit que 70');
+  }
+  // Si les deux conditions précédentes sont fausses, cela signifie que le nombre est égal à 70
+  else {
+    print('$nombre est égal à 70');
+  }
+}
